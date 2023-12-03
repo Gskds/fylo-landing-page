@@ -146,7 +146,7 @@ p {
   text-align: center;
 }
 
-/* Flex*/
+/* Hero*/
 .hero__body {
   text-align: center;
   padding: 1.5rem;
@@ -169,6 +169,10 @@ p {
 }
 
 @media (min-width: 40em) {
+  .hero__body {
+    padding-right: 0;
+    border: 1px solid lime;
+  }
   .flex-box {
     display: flex;
   }
@@ -179,6 +183,21 @@ p {
 
   .hero__body {
     text-align: left;
+  }
+  
+  .hero__form {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .hero__form .btn-primary{
+    font-size: .75rem;
+    margin-top: 0;
+  }
+  
+  .hero__input {
+    width: 50%;
+    height: 35px;
   }
 }
 
