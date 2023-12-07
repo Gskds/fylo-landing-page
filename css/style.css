@@ -171,7 +171,6 @@ p {
 @media (min-width: 40em) {
   .hero__body {
     padding-right: 0;
-    border: 1px solid lime;
   }
   .flex-box {
     display: flex;
@@ -221,9 +220,7 @@ input {
 
 /* Testimonial */
 .testimonial {
-  border: 1px solid lime;
   height: 17rem;
-  /* margin: 0 auto; */
   padding: 1.5rem;
 }
 
